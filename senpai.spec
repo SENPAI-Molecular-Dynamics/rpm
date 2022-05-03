@@ -9,7 +9,7 @@ Source0:	https://senpaimd.org/src/%{name}-%{version}-%{release}.tar.gz
 Vendor:		SENPAI Molecular Dynamics
 BuildArch:	x86_64
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	gcc
+BuildRequires:	gcc make
 #Requires:	senpai-cm-int senpai-cm-frc senpai-cm-pot
 
 %description
