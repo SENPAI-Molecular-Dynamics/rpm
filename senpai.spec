@@ -5,7 +5,7 @@ Summary:	Molecular dynamics simulator
 License:	GPLv3
 URL:		https://senpaimd.org
 %undefine _disable_source_fetch
-Source0:	http://localdev.sen/src/%{name}-%{version}-%{release}.tar.gz
+Source0:	https://senpaimd.org/src/%{name}-%{version}-%{release}.tar.gz
 Vendor:		SENPAI Molecular Dynamics
 BuildArch:	x86_64
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
