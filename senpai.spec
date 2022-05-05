@@ -4,13 +4,12 @@ Release:	1
 Summary:	Molecular dynamics simulator
 License:	GPLv3
 URL:		https://senpaimd.org
-%undefine _disable_source_fetch
+%undefine	_disable_source_fetch
 Source0:	https://senpaimd.org/src/%{name}-%{version}-%{release}.tar.gz
 Vendor:		SENPAI Molecular Dynamics
 BuildArch:	x86_64
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gcc make
-#Requires:	senpai-cm-int senpai-cm-frc senpai-cm-pot
 
 %description
 The SENPAI molecular dynamics (MD) simulator
@@ -23,7 +22,7 @@ make
 
 %install
 mkdir -p %{buildroot}/usr/bin
-install -m 0755  senpai %{buildroot}/usr/bin/senpai
+install -m 0755 senpai %{buildroot}/usr/bin/senpai
 
 %files
 %attr(755,root,root) /usr/bin/senpai
